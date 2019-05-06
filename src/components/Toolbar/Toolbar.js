@@ -6,8 +6,8 @@ import './Toolbar.css';
 const toolbar = props => (
   <header className='Toolbar'>
     <nav className='Toolbar__navigation'>
-      <div>
-        <DrawerToggleButton />
+      <div className='Toolbar__toggle-button'>
+        <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
       <div className='Toolbar__logo'>
         <a href='#'>THE LOGO</a>
