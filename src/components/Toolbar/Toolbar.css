@@ -1,0 +1,50 @@
+.Toolbar {
+  /* Styles for fixed nav */
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  height: 56px;
+  /* End fixed nav styles */
+
+  width: 100%;
+
+  background-color: lightgray;
+}
+
+.Toolbar__navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.Toolbar__logo {
+  margin-left: 20px;
+}
+
+.Toolbar__logo a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Spacer takes up space between nav items and logo */
+.spacer {
+  flex: 1;
+}
+
+.Toolbar__navigation-items ul {
+  list-style: none;
+  display: flex;
+}
+
+.Toolbar__navigation-items li {
+  padding: 0 10px;
+}
+
+.Toolbar__navigation-items a {
+  text-decoration: none;
+}
+
+.Toolbar__navigation-items a:hover,
+.Toolbar__navigation-items a:active {
+  color: red;
+}
